@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "libsignal",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tigase/libsignal",
+      "state" : {
+        "revision" : "d23d5af0d729cf66b93cea607f3f84a34b9fddfd",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "martin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tigase/Martin",
+      "state" : {
+        "branch" : "master",
+        "revision" : "9bbbda8c2e4e51d8f560b1207a4d1a9a4359ae91"
+      }
+    },
+    {
+      "identity" : "martinomemo",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tigase/MartinOMEMO",
+      "state" : {
+        "branch" : "master",
+        "revision" : "18e0b0ca2885afcf3de55223c560718ac8eaa6d4"
+      }
+    },
+    {
+      "identity" : "tigase-logging.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tigase/tigase-logging.swift.git",
+      "state" : {
+        "revision" : "382e2e85e64f8b1e3fcb71a996a030bf1b62ecb3",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "tigase-sqlite3.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tigase/tigase-sqlite3.swift.git",
+      "state" : {
+        "revision" : "da4974f537333e48aeb6b8191cfd1903f2846d40",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
