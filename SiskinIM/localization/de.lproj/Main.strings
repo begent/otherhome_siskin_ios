@@ -1,11 +1,11 @@
 /* Class = "UILabel"; text = "by Tigase, Inc."; ObjectID = "8ba-yZ-XRA"; */
-"8ba-yZ-XRA.text" = "von Tigase, Inc.";
+"8ba-yZ-XRA.text" = "von Otherhome, Inc.";
 
 /* Class = "UITabBarItem"; title = "Chats"; ObjectID = "acW-dT-cKf"; */
 "acW-dT-cKf.title" = "Chats";
 
 /* Class = "UITextField"; placeholder = "Enter jid"; ObjectID = "BM3-28-huR"; */
-"BM3-28-huR.placeholder" = "XMPP-Adresse eingeben";
+"BM3-28-huR.placeholder" = "Otherhome-Adresse eingeben";
 
 /* Class = "UINavigationItem"; title = "Informations"; ObjectID = "bNp-S8-ulX"; */
 "bNp-S8-ulX.title" = "Informationen";
@@ -28,7 +28,7 @@
 /* Class = "UITextField"; placeholder = "Select account"; ObjectID = "gXY-yq-Y2K"; */
 "gXY-yq-Y2K.placeholder" = "Konto wählen";
 
-/* Class = "UITextField"; text = "local_user@example.com"; ObjectID = "gXY-yq-Y2K"; */
+/* Class = "UITextField"; text = "username@otherhome.au"; ObjectID = "gXY-yq-Y2K"; */
 "gXY-yq-Y2K.text" = "nutzer@beispiel.de";
 
 /* Class = "UITableViewSection"; headerTitle = "Name"; ObjectID = "Kfl-J5-hdD"; */
@@ -53,7 +53,7 @@
 "Q28-Ig-9NP.headerTitle" = "ONLINE-STATUS";
 
 /* Class = "UITableViewSection"; headerTitle = "XMPP Address (JID)"; ObjectID = "Qgj-eQ-geg"; */
-"Qgj-eQ-geg.headerTitle" = "XMPP-Adresse (JID)";
+"Qgj-eQ-geg.headerTitle" = "Otherhome-Adresse";
 
 /* Class = "UITableViewController"; title = "Bookmarks"; ObjectID = "rba-pb-IiC"; */
 "rba-pb-IiC.title" = "Lesezeichen";
@@ -65,10 +65,10 @@
 "W52-LN-wzX.title" = "Kontakte";
 
 /* Class = "UIButton"; normalTitle = "Create new XMPP account"; ObjectID = "WyQ-cb-VAl"; */
-"WyQ-cb-VAl.normalTitle" = "Neues XMPP-Konto erstellen";
+"WyQ-cb-VAl.normalTitle" = "Neues Otherhome-Konto erstellen";
 
 /* Class = "UILabel"; text = "Message encryption"; ObjectID = "XZp-oZ-XpC"; */
 "XZp-oZ-XpC.text" = "Nachrichtenverschlüsselung";
 
 /* Class = "UIButton"; normalTitle = "Sign in to an existing XMPP account"; ObjectID = "ZzM-t7-zvW"; */
-"ZzM-t7-zvW.normalTitle" = "Mit einem vorhandenen XMPP-Konto anmelden";
+"ZzM-t7-zvW.normalTitle" = "Mit einem vorhandenen Otherhome-Konto anmelden";

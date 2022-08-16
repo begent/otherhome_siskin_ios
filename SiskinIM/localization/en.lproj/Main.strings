@@ -1,11 +1,11 @@
-/* Class = "UILabel"; text = "by Tigase, Inc."; ObjectID = "8ba-yZ-XRA"; */
-"8ba-yZ-XRA.text" = "by Tigase, Inc.";
+/* Class = "UILabel"; text = "by Otherhome, Inc."; ObjectID = "8ba-yZ-XRA"; */
+"8ba-yZ-XRA.text" = "by Otherhome, Inc.";
 
 /* Class = "UITabBarItem"; title = "Chats"; ObjectID = "acW-dT-cKf"; */
 "acW-dT-cKf.title" = "Chats";
 
 /* Class = "UITextField"; placeholder = "Enter jid"; ObjectID = "BM3-28-huR"; */
-"BM3-28-huR.placeholder" = "Enter jid";
+"BM3-28-huR.placeholder" = "Enter username(id)";
 
 /* Class = "UINavigationItem"; title = "Informations"; ObjectID = "bNp-S8-ulX"; */
 "bNp-S8-ulX.title" = "Informations";
@@ -28,8 +28,8 @@
 /* Class = "UITextField"; placeholder = "Select account"; ObjectID = "gXY-yq-Y2K"; */
 "gXY-yq-Y2K.placeholder" = "Select account";
 
-/* Class = "UITextField"; text = "local_user@example.com"; ObjectID = "gXY-yq-Y2K"; */
-"gXY-yq-Y2K.text" = "local_user@example.com";
+/* Class = "UITextField"; text = "username@otherhome.au"; ObjectID = "gXY-yq-Y2K"; */
+"gXY-yq-Y2K.text" = "username@otherhome.au";
 
 /* Class = "UITableViewSection"; headerTitle = "Name"; ObjectID = "Kfl-J5-hdD"; */
 "Kfl-J5-hdD.headerTitle" = "Name";
@@ -53,7 +53,7 @@
 "Q28-Ig-9NP.headerTitle" = "PRESENCE";
 
 /* Class = "UITableViewSection"; headerTitle = "XMPP Address (JID)"; ObjectID = "Qgj-eQ-geg"; */
-"Qgj-eQ-geg.headerTitle" = "XMPP Address (JID)";
+"Qgj-eQ-geg.headerTitle" = "Otherhome Address";
 
 /* Class = "UITableViewController"; title = "Bookmarks"; ObjectID = "rba-pb-IiC"; */
 "rba-pb-IiC.title" = "Bookmarks";
@@ -65,10 +65,10 @@
 "W52-LN-wzX.title" = "Contacts";
 
 /* Class = "UIButton"; normalTitle = "Create new XMPP account"; ObjectID = "WyQ-cb-VAl"; */
-"WyQ-cb-VAl.normalTitle" = "Create new XMPP account";
+"WyQ-cb-VAl.normalTitle" = "Create new Otherhome account";
 
 /* Class = "UILabel"; text = "Message encryption"; ObjectID = "XZp-oZ-XpC"; */
 "XZp-oZ-XpC.text" = "Message encryption";
 
 /* Class = "UIButton"; normalTitle = "Sign in to an existing XMPP account"; ObjectID = "ZzM-t7-zvW"; */
-"ZzM-t7-zvW.normalTitle" = "Sign in to an existing XMPP account";
+"ZzM-t7-zvW.normalTitle" = "Sign in to your Otherhome account";
