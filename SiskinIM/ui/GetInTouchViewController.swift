@@ -32,20 +32,22 @@ class GetInTouchViewController: UITableViewController {
         case 0:
             switch indexPath.row {
             case 1:
-                UIApplication.shared.open(URL(string: "https://github.com/tigase/siskin-im")!)
+                UIApplication.shared.open(URL(string: "https://otherhome.com.au/our-properties")!)
+            //case 2:
+                //(UIApplication.shared.delegate as! AppDelegate).open(xmppUri: //AppDelegate.XmppUri(jid: JID("tigase@muc.tigase.org"), action: //.join, dict: nil), action: .join);
             case 2:
-                (UIApplication.shared.delegate as! AppDelegate).open(xmppUri: AppDelegate.XmppUri(jid: JID("tigase@muc.tigase.org"), action: .join, dict: nil), action: .join);
+                UIApplication.shared.open(URL(string: "https://support.otherhome.com.au")!);
             default:
-                UIApplication.shared.open(URL(string: "https://siskin.im")!);
+                UIApplication.shared.open(URL(string: "https://otherhome.com.au/our-properties/available-rooms")!);
             }
         default:
             switch indexPath.row {
             case 1:
-                UIApplication.shared.open(URL(string: "https://twitter.com/tigase")!);
+                UIApplication.shared.open(URL(string: "https://otherhome.com.au")!);
             case 2:
-                UIApplication.shared.open(URL(string: "https://mastodon.technology/@tigase")!);
+                UIApplication.shared.open(URL(string: "https://otherhome.com.au")!);
             default:
-                UIApplication.shared.open(URL(string: "https://tigase.net")!);
+                UIApplication.shared.open(URL(string: "https://otherhome.com.au/landlord")!);
             }
         }
     }
