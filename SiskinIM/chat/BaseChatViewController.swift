@@ -107,7 +107,7 @@ class BaseChatViewController: UIViewController, UITextViewDelegate, ChatViewInpu
         
         let locationButton = UIButton(type: .custom);
         locationButton.contentEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4);
-        locationButton.setImage(UIImage(systemName: "location"), for: .normal);
+        locationButton.setImage(UIImage(systemName: "mappin.and.ellipse"), for: .normal);
         locationButton.addTarget(self, action: #selector(sendMessageClicked(_:)), for: .touchUpInside);
         locationButton.contentMode = .scaleToFill;
         locationButton.tintColor = UIColor(named: "tintColor");
