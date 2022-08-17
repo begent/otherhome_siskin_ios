@@ -418,7 +418,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyQ-cb-VAl">
                                 <rect key="frame" x="20" y="739" width="374" height="41"/>
-                                <color key="backgroundColor" name="tintColor"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
                                 <state key="normal" title="Create new Otherhome account">
@@ -503,12 +503,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" name="chatslistBackground"/>
-                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemGreenColor"/>
                         <tabBarAppearance key="standardAppearance" backgroundEffect="systemUltraThinMaterialDark" stackedItemPositioning="automatic">
                             <color key="backgroundColor" name="chatslistSemiBackground"/>
                         </tabBarAppearance>
                         <tabBarAppearance key="scrollEdgeAppearance" backgroundEffect="systemUltraThinMaterialDark">
-                            <color key="backgroundColor" name="chatslistSemiBackground"/>
+                            <color key="backgroundColor" systemColor="systemGray5Color"/>
                         </tabBarAppearance>
                     </tabBar>
                     <connections>
@@ -1428,6 +1428,12 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
