@@ -185,7 +185,7 @@
     </scenes>
     <resources>
         <image name="defaultAvatarDark" width="75" height="75"/>
-        <image name="ellipsis" catalog="system" width="32" height="32"/>
+        <image name="ellipsis" catalog="system" width="128" height="37"/>
         <image name="endCall" width="30" height="30"/>
         <image name="mute" width="30" height="30"/>
         <image name="switchCamera" width="30" height="30"/>
