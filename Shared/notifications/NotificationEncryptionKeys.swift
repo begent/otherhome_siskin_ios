@@ -24,7 +24,7 @@ import Martin
 
 public class NotificationEncryptionKeys {
     
-    private static let storage = UserDefaults(suiteName: "group.siskinim.notifications")!;
+    private static let storage = UserDefaults(suiteName: "group.otherhome.notifications")!;
     
     public static func key(for account: BareJID) -> Data? {
         storage.data(forKey: account.stringValue)

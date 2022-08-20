@@ -170,7 +170,7 @@ class ExtensionNotificationManagerProvider: NotificationManagerProvider {
             return nil;
         }
         
-        let url = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.siskinim.shared")!.appendingPathComponent("Library", isDirectory: true).appendingPathComponent("Caches", isDirectory: true).appendingPathComponent("avatars", isDirectory: true).appendingPathComponent(hash);
+        let url = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.otherhome.shared")!.appendingPathComponent("Library", isDirectory: true).appendingPathComponent("Caches", isDirectory: true).appendingPathComponent("avatars", isDirectory: true).appendingPathComponent(hash);
         return UIImage(contentsOfFile: url.path)?.inImage();
     }
     

@@ -26,7 +26,7 @@ import Martin
 extension Database {
     
     public static func mainDatabaseUrl() -> URL {
-        return FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.siskinim.shared")!.appendingPathComponent("siskinim_main.db");
+        return FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.otherhome.shared")!.appendingPathComponent("siskinim_main.db");
     }
     
 }

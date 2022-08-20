@@ -18,7 +18,7 @@
                BlueprintIdentifier = "FE759FA02370ACA4001E78D9"
                BuildableName = "NotificationService.appex"
                BlueprintName = "NotificationService"
-               ReferencedContainer = "container:SiskinIM.xcodeproj">
+               ReferencedContainer = "container:Otherhome.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FE94E5201CCBA74F00FAE755"
-               BuildableName = "Siskin.app"
-               BlueprintName = "Siskin IM"
-               ReferencedContainer = "container:SiskinIM.xcodeproj">
+               BuildableName = "Otherhome.app"
+               BlueprintName = "Otherhome"
+               ReferencedContainer = "container:Otherhome.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE94E5201CCBA74F00FAE755"
-            BuildableName = "Siskin.app"
-            BlueprintName = "Siskin IM"
-            ReferencedContainer = "container:SiskinIM.xcodeproj">
+            BuildableName = "Otherhome.app"
+            BlueprintName = "Otherhome"
+            ReferencedContainer = "container:Otherhome.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE94E5201CCBA74F00FAE755"
-            BuildableName = "Siskin.app"
-            BlueprintName = "Siskin IM"
-            ReferencedContainer = "container:SiskinIM.xcodeproj">
+            BuildableName = "Otherhome.app"
+            BlueprintName = "Otherhome"
+            ReferencedContainer = "container:Otherhome.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

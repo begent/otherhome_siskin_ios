@@ -23,7 +23,7 @@ import Martin
 
 extension DBChatStore: ChannelStore {
     
-    public typealias Channel = Siskin.Channel
+    public typealias Channel = Otherhome.Channel
     
     public func channels(for context: Context) -> [Channel] {
         return convert(items: conversations(for: context.userBareJid));

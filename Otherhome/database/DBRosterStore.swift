@@ -74,7 +74,7 @@ class AccountRoster {
 
 open class DBRosterStore: RosterStore {
     
-    public typealias RosterItem = Siskin.RosterItem
+    public typealias RosterItem = Otherhome.RosterItem
     
     static let instance: DBRosterStore = DBRosterStore.init();
     

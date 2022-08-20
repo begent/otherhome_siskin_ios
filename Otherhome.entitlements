@@ -8,13 +8,14 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.TigaseMessenger.Share</string>
-		<string>group.siskinim.shared</string>
-		<string>group.siskinim.notifications</string>
+		<string>group.otherhome.nofifications</string>
+		<string>group.otherhome.share</string>
+		<string>group.otherhome.shared</string>
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
 		<string>$(AppIdentifierPrefix)org.tigase.messenger.mobile</string>
+		<string>$(AppIdentifierPrefix)au.otherhome.ios</string>
 	</array>
 </dict>
 </plist>

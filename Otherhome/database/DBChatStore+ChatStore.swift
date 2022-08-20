@@ -25,7 +25,7 @@ import Martin
 
 extension DBChatStore: ChatStore {
     
-    public typealias Chat = Siskin.Chat
+    public typealias Chat = Otherhome.Chat
     
     public func chats(for context: Context) -> [Chat] {
         return convert(items: self.conversations(for: context.userBareJid));
