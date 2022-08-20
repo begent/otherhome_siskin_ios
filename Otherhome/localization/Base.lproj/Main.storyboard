@@ -22,13 +22,13 @@
         <!--Chats List View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <tableViewController storyboardIdentifier="ChatsListViewController" id="9pv-A4-QxB" customClass="ChatsListViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ChatsListViewController" id="9pv-A4-QxB" customClass="ChatsListViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3ug-3t-4BD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" name="chatslistBackground"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChatsListTableViewCellNew" id="0IJ-1b-Ma3" customClass="ChatsListTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChatsListTableViewCellNew" id="0IJ-1b-Ma3" customClass="ChatsListTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0IJ-1b-Ma3" id="f45-bS-0LJ">
@@ -73,7 +73,7 @@
                                                                 <fragment content="#bc-ignore!"/>
                                                             </attributedString>
                                                         </label>
-                                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKh-IF-QJS" customClass="BadgeButton" customModule="Siskin" customModuleProvider="target">
+                                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKh-IF-QJS" customClass="BadgeButton" customModule="Otherhome" customModuleProvider="target">
                                                             <rect key="frame" x="307" y="0.0" width="31" height="18"/>
                                                             <color key="backgroundColor" name="chatslistItemSecondaryLabel"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
@@ -89,10 +89,10 @@
                                                 </stackView>
                                             </subviews>
                                         </stackView>
-                                        <view contentMode="scaleAspectFit" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="8Re-Fq-Luq" customClass="AvatarStatusView" customModule="Siskin" customModuleProvider="target">
+                                        <view contentMode="scaleAspectFit" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="8Re-Fq-Luq" customClass="AvatarStatusView" customModule="Otherhome" customModuleProvider="target">
                                             <rect key="frame" x="10" y="6" width="48" height="48"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e8L-U4-JYV" customClass="AvatarView" customModule="Siskin" customModuleProvider="target">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e8L-U4-JYV" customClass="AvatarView" customModule="Otherhome" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="first" translatesAutoresizingMaskIntoConstraints="NO" id="Qv8-HJ-XqL">
@@ -144,17 +144,17 @@
                                     <outlet property="timestampLabel" destination="ga8-2K-hxE" id="y01-g8-TkJ"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChatsListTableViewCellBig" id="S4B-4u-yaC" customClass="ChatsListTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChatsListTableViewCellBig" id="S4B-4u-yaC" customClass="ChatsListTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="104.5" width="414" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S4B-4u-yaC" id="MVZ-Mn-eTj">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleAspectFit" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="mHg-3b-NWM" customClass="AvatarStatusView" customModule="Siskin" customModuleProvider="target">
+                                        <view contentMode="scaleAspectFit" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="mHg-3b-NWM" customClass="AvatarStatusView" customModule="Otherhome" customModuleProvider="target">
                                             <rect key="frame" x="10" y="6" width="48" height="48"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="clo-VW-qB8" customClass="AvatarView" customModule="Siskin" customModuleProvider="target">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="clo-VW-qB8" customClass="AvatarView" customModule="Otherhome" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="first" translatesAutoresizingMaskIntoConstraints="NO" id="WaZ-LK-dhq">
@@ -221,7 +221,7 @@
                                                                 <fragment content="#bc-ignore!"/>
                                                             </attributedString>
                                                         </label>
-                                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="760" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYb-hA-rRS" customClass="BadgeButton" customModule="Siskin" customModuleProvider="target">
+                                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="760" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYb-hA-rRS" customClass="BadgeButton" customModule="Otherhome" customModuleProvider="target">
                                                             <rect key="frame" x="307" y="0.0" width="31" height="18"/>
                                                             <color key="backgroundColor" name="chatslistItemSecondaryLabel"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
@@ -264,7 +264,7 @@
                         <sections/>
                     </tableView>
                     <navigationItem key="navigationItem" id="LKO-PG-RwH">
-                        <barButtonItem key="leftBarButtonItem" image="gear" catalog="system" id="dKq-Kn-VEZ" customClass="BadgedBarButtonItem" customModule="Siskin" customModuleProvider="target">
+                        <barButtonItem key="leftBarButtonItem" image="gear" catalog="system" id="dKq-Kn-VEZ" customClass="BadgedBarButtonItem" customModule="Otherhome" customModuleProvider="target">
                             <connections>
                                 <segue destination="YQ3-W5-I9J" kind="presentation" id="pSy-vZ-fzB"/>
                             </connections>
@@ -297,7 +297,7 @@
         <!--Chat-->
         <scene sceneID="fbZ-3e-zd8">
             <objects>
-                <viewController storyboardIdentifier="ChatViewController" title="Chat" id="WP2-Cp-7ZE" customClass="ChatViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChatViewController" title="Chat" id="WP2-Cp-7ZE" customClass="ChatViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="MXY-a0-pWq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -320,7 +320,7 @@
                     <navigationItem key="navigationItem" id="5u6-YP-VV1">
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title=" " id="Dx3-QU-3cN"/>
-                        <view key="titleView" contentMode="scaleToFill" id="fc4-l0-VbW" customClass="ChatTitleView" customModule="Siskin" customModuleProvider="target">
+                        <view key="titleView" contentMode="scaleToFill" id="fc4-l0-VbW" customClass="ChatTitleView" customModule="Otherhome" customModuleProvider="target">
                             <rect key="frame" x="12" y="2" width="390" height="40"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
@@ -381,7 +381,7 @@
         <!--Empty View Controller-->
         <scene sceneID="hqR-ti-YNP">
             <objects>
-                <viewController storyboardIdentifier="emptyDetailViewController" id="sks-Bw-Z68" customClass="EmptyViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="emptyDetailViewController" id="sks-Bw-Z68" customClass="EmptyViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2uN-Ke-AFc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -397,13 +397,13 @@
         <!--Setup View Controller-->
         <scene sceneID="8Jd-7O-58R">
             <objects>
-                <viewController restorationIdentifier="SetupViewController" storyboardIdentifier="SetupViewController" id="ib9-Sm-LTl" userLabel="Setup View Controller" customClass="SetupViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="SetupViewController" storyboardIdentifier="SetupViewController" id="ib9-Sm-LTl" userLabel="Setup View Controller" customClass="SetupViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wsj-r3-ZjG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OTHERHOME" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V18-Iv-6Re">
-                                <rect key="frame" x="102" y="447.5" width="210.5" height="38.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Otherhome IM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V18-Iv-6Re">
+                                <rect key="frame" x="20" y="447" width="374" height="39"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
@@ -412,16 +412,16 @@
                                 </attributedString>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Otherhome, Inc." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ba-yZ-XRA">
-                                <rect key="frame" x="145" y="486" width="164" height="26.5"/>
+                                <rect key="frame" x="145" y="486.5" width="164" height="26.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="22"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyQ-cb-VAl">
-                                <rect key="frame" x="20" y="739" width="374" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyQ-cb-VAl">
+                                <rect key="frame" x="88" y="739" width="236" height="41"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
-                                <state key="normal" title="Create new Otherhome account">
+                                <state key="normal" title="Create New Account">
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
                                 <connections>
@@ -480,7 +480,7 @@
         <!--Root View-->
         <scene sceneID="g0a-UN-HR6">
             <objects>
-                <splitViewController id="vAU-gJ-Tx3" customClass="GlobalSplitViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <splitViewController id="vAU-gJ-Tx3" customClass="GlobalSplitViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="Root View" id="8T3-uF-8vn">
                         <attributedString key="userComments">
                             <fragment content="#bc-ignore!"/>
@@ -498,7 +498,7 @@
         <!--Main Tab Bar Controller-->
         <scene sceneID="Lw1-4q-gz0">
             <objects>
-                <tabBarController id="lx9-0R-yhg" customClass="MainTabBarController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="lx9-0R-yhg" customClass="MainTabBarController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" id="MWg-yL-VNP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -524,22 +524,22 @@
         <!--Roster-->
         <scene sceneID="x6U-yq-dO2">
             <objects>
-                <tableViewController title="Roster" id="mps-t3-QBq" customClass="RosterViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Roster" id="mps-t3-QBq" customClass="RosterViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="56" sectionHeaderHeight="28" sectionFooterHeight="28" id="dbg-Pp-Ujo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="chatslistBackground"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="RosterItemTableViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="RosterItemTableViewCell" rowHeight="56" id="ONc-pU-DYD" customClass="RosterItemTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="RosterItemTableViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="RosterItemTableViewCell" rowHeight="56" id="ONc-pU-DYD" customClass="RosterItemTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="56"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="ONc-pU-DYD" translatesAutoresizingMaskIntoConstraints="NO" id="UqK-Bi-A4U">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                                     <subviews>
-                                        <view contentMode="scaleAspectFit" verticalCompressionResistancePriority="250" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PEi-Gx-E77" customClass="AvatarStatusView" customModule="Siskin" customModuleProvider="target">
+                                        <view contentMode="scaleAspectFit" verticalCompressionResistancePriority="250" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PEi-Gx-E77" customClass="AvatarStatusView" customModule="Otherhome" customModuleProvider="target">
                                             <rect key="frame" x="10" y="6" width="44" height="44"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jqt-KR-cfI" customClass="AvatarView" customModule="Siskin" customModuleProvider="target">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jqt-KR-cfI" customClass="AvatarView" customModule="Otherhome" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="first" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ9-1V-mBH">
@@ -729,7 +729,7 @@
         <!--Roster Item Edit View Controller-->
         <scene sceneID="7R8-sh-AnU">
             <objects>
-                <tableViewController id="WDE-Vb-oKK" customClass="RosterItemEditViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="WDE-Vb-oKK" customClass="RosterItemEditViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Ock-Af-3IY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -902,13 +902,13 @@
         <!--Informations-->
         <scene sceneID="kJ5-M5-UxC">
             <objects>
-                <tableViewController id="rSR-7g-CFO" customClass="ContactViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="rSR-7g-CFO" customClass="ContactViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="NKE-a4-JkF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BasicInfoCell" rowHeight="94" id="C58-uk-LaV" customClass="ContactBasicTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BasicInfoCell" rowHeight="94" id="C58-uk-LaV" customClass="ContactBasicTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="49.5" width="414" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C58-uk-LaV" id="ZeZ-oS-SaN">
@@ -985,7 +985,7 @@
                                     <outlet property="nameView" destination="koS-ci-GqT" id="501-ZQ-wsO"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ContactFormCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactFormCell" rowHeight="51" id="pQL-wq-Sb9" customClass="ContactFormTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ContactFormCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactFormCell" rowHeight="51" id="pQL-wq-Sb9" customClass="ContactFormTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="143.5" width="414" height="51"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pQL-wq-Sb9" id="9Se-nj-MAA">
@@ -1026,7 +1026,7 @@
                                     <outlet property="typeView" destination="yxF-LM-meS" id="hZ3-sX-ToE"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddressCell" rowHeight="80" id="73R-lk-SWh" customClass="ContactFormTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddressCell" rowHeight="80" id="73R-lk-SWh" customClass="ContactFormTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="194.5" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="73R-lk-SWh" id="AoC-2k-RUL">
@@ -1101,7 +1101,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="OMEMOEncryptionCell" textLabel="XZp-oZ-XpC" detailTextLabel="vIB-ar-uog" rowHeight="44" style="IBUITableViewCellStyleValue1" id="EPN-iV-X5r" customClass="EnumTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="OMEMOEncryptionCell" textLabel="XZp-oZ-XpC" detailTextLabel="vIB-ar-uog" rowHeight="44" style="IBUITableViewCellStyleValue1" id="EPN-iV-X5r" customClass="EnumTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="362.5" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EPN-iV-X5r" id="cx2-fQ-N3b">
@@ -1128,7 +1128,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OMEMOIdentityCell" id="3q3-ov-q6z" customClass="OMEMOIdentityTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OMEMOIdentityCell" id="3q3-ov-q6z" customClass="OMEMOIdentityTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="406.5" width="414" height="63"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3q3-ov-q6z" id="ArO-fK-TDf">
@@ -1251,7 +1251,7 @@
         <!--Attachments-->
         <scene sceneID="LjN-O9-imb">
             <objects>
-                <collectionViewController storyboardIdentifier="ChatAttachmentsController" title="Attachments" id="N9z-ms-iaT" customClass="ChatAttachmentsController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="ChatAttachmentsController" title="Attachments" id="N9z-ms-iaT" customClass="ChatAttachmentsController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="cHc-Jl-VKK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1263,7 +1263,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AttachmentCellView" id="N8o-sn-l8d" customClass="ChatAttachmentsCellView" customModule="Siskin" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AttachmentCellView" id="N8o-sn-l8d" customClass="ChatAttachmentsCellView" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="rlN-au-jgK">
@@ -1319,20 +1319,20 @@
         <!--Bookmarks-->
         <scene sceneID="QrV-Go-pPc">
             <objects>
-                <tableViewController title="Bookmarks" id="rba-pb-IiC" customClass="BookmarksController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Bookmarks" id="rba-pb-IiC" customClass="BookmarksController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="dHi-2q-YJs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="chatslistBackground"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="bookmarkCell" id="2Pz-rv-NGY" customClass="BookmarkViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="bookmarkCell" id="2Pz-rv-NGY" customClass="BookmarkViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="60.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Pz-rv-NGY" id="FcJ-ju-Pff">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="60.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nTX-5X-KoR" customClass="AvatarView" customModule="Siskin" customModuleProvider="target">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nTX-5X-KoR" customClass="AvatarView" customModule="Otherhome" customModuleProvider="target">
                                             <rect key="frame" x="10" y="6" width="48" height="48.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="48" id="RI4-B8-eZ1"/>

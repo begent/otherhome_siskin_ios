@@ -28,6 +28,7 @@ class SetupViewController: UIViewController {
     @IBOutlet var titleView: UILabel!;
     @IBOutlet var subtitleView: UILabel!;
     
+   
     @IBOutlet var createAccountBtn: UIButton!
     @IBOutlet var existingAccountBtn: UIButton!
     
@@ -54,13 +55,20 @@ class SetupViewController: UIViewController {
         appLogoView.layer.cornerRadius = appLogoView.frame.width / 8;
     }
     
-    @IBAction func createAccountBtnClicked(_ sender: AnyObject) {
+    @IBAction func createAccountBtnClicked(_ sender: UIButton) {
+     if let url = URL(string: "http://otherhome.au:9090/plugins/registration/sign-up.jsp") {
+       UIApplication.shared.open(url, options: [:])
+           }
+   }
+    /* origin button registration
+     
+   @IBAction func createAccountBtnClicked(_ sender: AnyObject) {
         let addAccountController = RegisterAccountController.instantiate(fromAppStoryboard: .Account);
         addAccountController.hidesBottomBarWhenPushed = true;
         let navigationController = UINavigationController(rootViewController: addAccountController);
         self.showDetailViewController(navigationController, sender: self);
     }
-    
+    */
     @IBAction func existingAccountBtnClicked(_ sender: AnyObject) {
         let addAccountController = AddAccountController.instantiate(fromAppStoryboard: .Account);
         addAccountController.hidesBottomBarWhenPushed = true;
