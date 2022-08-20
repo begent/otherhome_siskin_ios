@@ -406,7 +406,7 @@
 
 /* alert body
    push notifications option description */
-"If enabled, you will receive notifications of new messages or calls even if SiskinIM is in background. SiskinIM servers will forward those notifications for you from XMPP servers." = "If enabled, you will receive notifications of new messages or calls even if SiskinIM is in background. SiskinIM servers will forward those notifications for you from XMPP servers.";
+"If enabled, you will receive notifications of new messages or calls even if Otherhome is in background. Otherhome servers will forward those notifications for you from Otherhome servers." = "If enabled, you will receive notifications of new messages or calls even if Otherhome is in background. Otherhome servers will forward those notifications for you from Otherhome servers.";
 
 /* section footer */
 "If you don't know any XMPP server domain names, then select one of our trusted servers." = "If you don't know any XMPP server domain names, then select one of our trusted servers.";

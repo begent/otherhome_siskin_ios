@@ -406,7 +406,7 @@
 
 /* alert body
    push notifications option description */
-"If enabled, you will receive notifications of new messages or calls even if SiskinIM is in background. SiskinIM servers will forward those notifications for you from XMPP servers." = "Wenn diese Option aktiviert ist, erhältst du Benachrichtigungen über neue Nachrichten oder Anrufe, auch wenn SiskinIM im Hintergrund läuft. Die SiskinIM-Server leiten diese Benachrichtigungen von XMPP-Servern für dich weiter.";
+"If enabled, you will receive notifications of new messages or calls even if Otherhome is in background. SiskinIM servers will forward those notifications for you from Otherhome servers." = "Wenn diese Option aktiviert ist, erhältst du Benachrichtigungen über neue Nachrichten oder Anrufe, auch wenn Otherhome im Hintergrund läuft. Die Otherhome-Server leiten diese Benachrichtigungen von Otherhome-Servern für dich weiter.";
 
 /* section footer */
 "If you don't know any XMPP server domain names, then select one of our trusted servers." = "Wenn du keine XMPP-Server-Domainnamen kennst, dann wähle einen unserer vertrauenswürdigen Server.";

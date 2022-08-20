@@ -188,7 +188,7 @@ class NewFeaturesDetector: XmppServiceExtension {
     }
     
     private func showPushQuestion(completionHandler: @escaping ()->Void) {
-        let alert = UIAlertController(title: NSLocalizedString("Push Notifications", comment: "alert title"), message: NSLocalizedString("If enabled, you will receive notifications of new messages or calls even if SiskinIM is in background. SiskinIM servers will forward those notifications for you from XMPP servers.", comment: "alert body"), preferredStyle: .alert);
+        let alert = UIAlertController(title: NSLocalizedString("Push Notifications", comment: "alert title"), message: NSLocalizedString("If enabled, you will receive notifications of new messages or calls even if Otherhome is in background. Otherhome servers will forward those notifications for you from Otherhome servers.", comment: "alert body"), preferredStyle: .alert);
         alert.addAction(UIAlertAction(title: NSLocalizedString("Enable", comment: "button label"), style: .default, handler: { _ in
             Settings.enablePush = true;
             completionHandler();
