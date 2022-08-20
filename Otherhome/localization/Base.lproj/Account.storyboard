@@ -12,13 +12,13 @@
         <!--Register Account Controller-->
         <scene sceneID="Brq-kb-iaT">
             <objects>
-                <tableViewController storyboardIdentifier="RegisterAccountController" id="d1F-TM-deh" customClass="RegisterAccountController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="RegisterAccountController" id="d1F-TM-deh" customClass="RegisterAccountController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="6dR-ED-Qeg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="AccountDomainTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="AccountDomainTableViewCell" id="f03-9n-KOl" customClass="AccountDomainTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="AccountDomainTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="AccountDomainTableViewCell" id="f03-9n-KOl" customClass="AccountDomainTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="49.5" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f03-9n-KOl" id="08u-UX-WmP">
@@ -45,7 +45,7 @@
                                     <outlet property="domainField" destination="y9a-he-IaB" id="OZO-iJ-9Km"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ServerSelectorTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ServerSelectorTableViewCell" id="Ejh-0X-fjm" customClass="ServerSelectorTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ServerSelectorTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ServerSelectorTableViewCell" id="Ejh-0X-fjm" customClass="ServerSelectorTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="93.5" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ejh-0X-fjm" id="SLf-ra-Yho">
@@ -121,7 +121,7 @@
         <!--Account Connectivity Settings View Controller-->
         <scene sceneID="0dE-2w-L01">
             <objects>
-                <tableViewController id="AU9-t5-1D6" customClass="AccountConnectivitySettingsViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="AU9-t5-1D6" customClass="AccountConnectivitySettingsViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="dtE-gA-5g7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -259,12 +259,12 @@
         <!--Add Account Controller-->
         <scene sceneID="umk-Jx-Nt9">
             <objects>
-                <tableViewController storyboardIdentifier="AddAccountController" id="0fr-Ms-ALR" customClass="AddAccountController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="AddAccountController" id="0fr-Ms-ALR" customClass="AddAccountController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="gb9-64-26F">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <sections>
-                            <tableViewSection headerTitle="XMPP ID" footerTitle="Enter your account JID" id="SKG-bP-NPK">
+                            <tableViewSection headerTitle="Otherhome ID" footerTitle="Enter your account ID" id="SKG-bP-NPK">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AddAccountJidCell" id="YoH-4K-lD8">
                                         <rect key="frame" x="20" y="49.5" width="374" height="44"/>
@@ -273,7 +273,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="user@domain.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qTN-JT-Mcr">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="user@otherhome.au" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qTN-JT-Mcr">
                                                     <rect key="frame" x="20" y="0.0" width="334" height="44"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next"/>
@@ -380,7 +380,7 @@
         <!--Settings-->
         <scene sceneID="eUU-yF-w7k">
             <objects>
-                <tableViewController storyboardIdentifier="SetAccountSettingsController" id="hDm-2E-coZ" customClass="SetAccountSettingsController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SetAccountSettingsController" id="hDm-2E-coZ" customClass="SetAccountSettingsController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="i2g-cn-WU6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -406,7 +406,7 @@
                                     </attributedString>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MAMEnable" id="EjR-71-S9g" customClass="MAMEnable" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MAMEnable" id="EjR-71-S9g" customClass="MAMEnable" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="93" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EjR-71-S9g" id="4y6-te-XVk">
@@ -435,7 +435,7 @@
                                     <outlet property="switchView" destination="Uxz-kQ-IJT" id="CqX-3m-jFZ"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MAMInitialSync" textLabel="7td-ty-azW" detailTextLabel="E11-00-jW5" style="IBUITableViewCellStyleValue1" id="TOA-Lj-OJd" customClass="MAMInitialSync" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MAMInitialSync" textLabel="7td-ty-azW" detailTextLabel="E11-00-jW5" style="IBUITableViewCellStyleValue1" id="TOA-Lj-OJd" customClass="MAMInitialSync" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="136.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TOA-Lj-OJd" id="HLC-hB-LoR">
@@ -486,7 +486,7 @@
         <!--Server Features-->
         <scene sceneID="VuG-f0-71o">
             <objects>
-                <tableViewController title="Server Features" id="wW7-3f-Kck" customClass="ServerFeaturesViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Server Features" id="wW7-3f-Kck" customClass="ServerFeaturesViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oTF-ej-Qbd" userLabel="Server Features">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -537,7 +537,7 @@
         <!--AccountQR Code Controller-->
         <scene sceneID="A1o-F3-fYk">
             <objects>
-                <viewController id="CVI-hf-VwY" customClass="AccountQRCodeController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CVI-hf-VwY" customClass="AccountQRCodeController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="su7-Wv-eGD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -598,7 +598,7 @@
         <!--Account settings-->
         <scene sceneID="jT9-ok-w6y">
             <objects>
-                <tableViewController storyboardIdentifier="AccountSettingsViewController" id="6yM-ZG-ryL" customClass="AccountSettingsViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="AccountSettingsViewController" id="6yM-ZG-ryL" customClass="AccountSettingsViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="jkv-xG-8S5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -988,20 +988,20 @@
         <!--Card Edit View Controller-->
         <scene sceneID="1Vu-99-WGf">
             <objects>
-                <tableViewController id="aoe-87-pHn" customClass="VCardEditViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="aoe-87-pHn" customClass="VCardEditViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelectionDuringEditing="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="6Lb-xD-6si">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AvatarEditCell" id="Jdf-2W-ONn" customClass="VCardAvatarEditCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AvatarEditCell" id="Jdf-2W-ONn" customClass="VCardAvatarEditCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="49.5" width="600" height="246.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jdf-2W-ONn" id="Poh-qo-WJY">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="246.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dH0-8q-Wlh" customClass="AvatarView" customModule="Siskin" customModuleProvider="target">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dH0-8q-Wlh" customClass="AvatarView" customModule="Otherhome" customModuleProvider="target">
                                             <rect key="frame" x="200" y="4" width="200" height="200"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="200" id="5xb-dM-due"/>
@@ -1026,7 +1026,7 @@
                                     <outlet property="changeBtn" destination="Mo3-sc-7ss" id="xI5-Pl-LR0"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextEditCell" id="V2q-7Y-AFD" customClass="VCardTextEditCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextEditCell" id="V2q-7Y-AFD" customClass="VCardTextEditCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="296" width="600" height="44.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V2q-7Y-AFD" id="v2b-uZ-hel">
@@ -1053,7 +1053,7 @@
                                     <outlet property="textField" destination="F9p-Vm-8vJ" id="Env-Ti-HX1"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhoneEditCell" rowHeight="44" id="pFr-oV-mlK" customClass="VCardEditPhoneTableViewCell" customModule="Siskin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhoneEditCell" rowHeight="44" id="pFr-oV-mlK" customClass="VCardEditPhoneTableViewCell" customModule="Otherhome" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="340.5" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pFr-oV-mlK" id="VLP-0h-9c6">
@@ -1097,17 +1097,17 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PhoneAddCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhoneAddCell" id="PkJ-5b-L9A">
-                                <rect key="frame" x="0.0" y="384.5" width="600" height="49.5"/>
+                                <rect key="frame" x="0.0" y="384.5" width="600" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PkJ-5b-L9A" id="Kju-6c-Lhj">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="49.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jf-N5-mdI">
-                                            <rect key="frame" x="20" y="14" width="21" height="22"/>
+                                            <rect key="frame" x="20" y="14" width="21" height="22.5"/>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" text="add phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAE-vq-Vfj">
-                                            <rect key="frame" x="49" y="14" width="531" height="21"/>
+                                            <rect key="frame" x="49" y="14" width="531" height="21.5"/>
                                             <accessibility key="accessibilityConfiguration">
                                                 <accessibilityTraits key="traits" link="YES" staticText="YES"/>
                                             </accessibility>
@@ -1127,8 +1127,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EmailEditCell" rowHeight="44" id="GEd-A7-c44" customClass="VCardEditEmailTableViewCell" customModule="Siskin" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="434" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EmailEditCell" rowHeight="44" id="GEd-A7-c44" customClass="VCardEditEmailTableViewCell" customModule="Otherhome" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="434.5" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GEd-A7-c44" id="3nQ-Uq-yP5">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -1171,7 +1171,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EmailAddCell" rowHeight="51.666667938232422" id="l4b-9l-fds">
-                                <rect key="frame" x="0.0" y="478" width="600" height="51.666667938232422"/>
+                                <rect key="frame" x="0.0" y="478.5" width="600" height="51.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l4b-9l-fds" id="a6e-BR-Tpz">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="51.666667938232422"/>
@@ -1202,17 +1202,17 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddressAddCell" id="mi6-7L-CB9">
-                                <rect key="frame" x="0.0" y="529.66666793823242" width="600" height="49.5"/>
+                                <rect key="frame" x="0.0" y="530.16666793823242" width="600" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mi6-7L-CB9" id="Nkf-ag-U8r">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="49.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHr-1G-C3e">
-                                            <rect key="frame" x="20" y="14" width="21" height="22"/>
+                                            <rect key="frame" x="20" y="14" width="21" height="22.5"/>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" text="add address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRX-fN-yOj">
-                                            <rect key="frame" x="49" y="14" width="531" height="21"/>
+                                            <rect key="frame" x="49" y="14" width="531" height="21.5"/>
                                             <accessibility key="accessibilityConfiguration">
                                                 <accessibilityTraits key="traits" link="YES" staticText="YES"/>
                                             </accessibility>
@@ -1232,8 +1232,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddressEditCell" id="Elb-gV-k9q" customClass="VCardEditAddressTableViewCell" customModule="Siskin" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="579.16666793823242" width="600" height="132.5"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddressEditCell" id="Elb-gV-k9q" customClass="VCardEditAddressTableViewCell" customModule="Otherhome" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="580.16666793823242" width="600" height="132.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Elb-gV-k9q" id="b8O-NZ-4fp">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="132.5"/>
@@ -1346,21 +1346,21 @@
         <!--OMEMO fingerprints-->
         <scene sceneID="9pa-yB-KSS">
             <objects>
-                <tableViewController title="OMEMO fingerprints" id="A24-eF-tzh" customClass="OMEMOFingerprintsController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="OMEMO fingerprints" id="A24-eF-tzh" customClass="OMEMOFingerprintsController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="YAO-oB-8fl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OMEMOLocalIdentityCell" id="cto-Nb-ULr">
-                                <rect key="frame" x="0.0" y="49.5" width="414" height="63"/>
+                                <rect key="frame" x="0.0" y="49.5" width="414" height="63.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cto-Nb-ULr" id="tch-hI-Vvq">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="63"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="63.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7t6-hB-jMX">
-                                            <rect key="frame" x="10" y="23" width="334" height="34"/>
+                                            <rect key="frame" x="10" y="23.5" width="334" height="34"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="34" id="jnW-qY-eTH"/>
                                             </constraints>
@@ -1378,7 +1378,7 @@
                                             </attributedString>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device 11111111" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMn-lc-rJ9">
-                                            <rect key="frame" x="10" y="6" width="86.5" height="15"/>
+                                            <rect key="frame" x="10" y="6" width="86.5" height="15.5"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                             <color key="textColor" systemColor="secondaryLabelColor"/>
                                             <nil key="highlightedColor"/>
@@ -1398,15 +1398,15 @@
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OMEMORemoteIdentityCell" id="lby-TQ-jH9" customClass="OMEMOIdentityTableViewCell" customModule="Siskin" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="112.5" width="414" height="63.5"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OMEMORemoteIdentityCell" id="lby-TQ-jH9" customClass="OMEMOIdentityTableViewCell" customModule="Otherhome" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="113" width="414" height="63"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lby-TQ-jH9" id="YFz-aR-3rg">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="63.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="63"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R1O-h9-aAS">
-                                            <rect key="frame" x="355" y="25" width="51" height="31"/>
+                                            <rect key="frame" x="355" y="24.5" width="51" height="31"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="49" id="oBb-or-Ib8"/>
                                             </constraints>
@@ -1415,7 +1415,7 @@
                                             </connections>
                                         </switch>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Device 11111111" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBD-gj-5RW">
-                                            <rect key="frame" x="10" y="6" width="86.5" height="15.5"/>
+                                            <rect key="frame" x="10" y="6" width="86.5" height="15"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                             <color key="textColor" systemColor="secondaryLabelColor"/>
                                             <nil key="highlightedColor"/>
@@ -1424,7 +1424,7 @@
                                             </attributedString>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yuT-9V-Der">
-                                            <rect key="frame" x="10" y="23.5" width="335" height="34"/>
+                                            <rect key="frame" x="10" y="23" width="335" height="34"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="34" id="XkW-CK-C29"/>
                                             </constraints>

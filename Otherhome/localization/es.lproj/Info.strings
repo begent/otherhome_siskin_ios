@@ -2,10 +2,10 @@
 "1Kk-Xc-9Ce.headerTitle" = "Aplicación";
 
 /* Class = "UILabel"; text = "Website"; ObjectID = "4wJ-8E-L1J"; */
-"4wJ-8E-L1J.text" = "Sitio web";
+"4wJ-8E-L1J.text" = "Dueño";
 
 /* Class = "UILabel"; text = "Website"; ObjectID = "56G-hc-AcV"; */
-"56G-hc-AcV.text" = "Sitio web";
+"56G-hc-AcV.text" = "Available rooms";
 
 /* Class = "UITableViewController"; title = "Get in touch"; ObjectID = "5mK-5u-qus"; */
 "5mK-5u-qus.title" = "Contactar";
@@ -17,4 +17,4 @@
 "lRd-ky-eXs.text" = "Versión: 5.0";
 
 /* Class = "UILabel"; text = "XMPP Channel"; ObjectID = "U4z-jz-alK"; */
-"U4z-jz-alK.text" = "Canal XMPP";
+"U4z-jz-alK.text" = "Support ticket";

@@ -52,7 +52,7 @@
 /* Class = "UITableViewSection"; headerTitle = "PRESENCE"; ObjectID = "Q28-Ig-9NP"; */
 "Q28-Ig-9NP.headerTitle" = "Dostępność";
 
-/* Class = "UITableViewSection"; headerTitle = "XMPP Address (JID)"; ObjectID = "Qgj-eQ-geg"; */
+/* Class = "UITableViewSection"; headerTitle = "Otherhome Address (ID)"; ObjectID = "Qgj-eQ-geg"; */
 "Qgj-eQ-geg.headerTitle" = "Adres Otherhome";
 
 /* Class = "UITableViewController"; title = "Bookmarks"; ObjectID = "rba-pb-IiC"; */

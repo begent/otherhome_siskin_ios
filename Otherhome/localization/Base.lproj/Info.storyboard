@@ -13,7 +13,7 @@
         <!--About Controller-->
         <scene sceneID="aNY-0f-Chp">
             <objects>
-                <viewController restorationIdentifier="AboutController" storyboardIdentifier="AboutController" id="kwm-Ck-fLB" userLabel="About Controller" customClass="AboutController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="AboutController" storyboardIdentifier="AboutController" id="kwm-Ck-fLB" userLabel="About Controller" customClass="AboutController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0cP-EO-OEn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,7 +42,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OMw-f8-Hbs">
                                 <rect key="frame" x="0.0" y="275.5" width="414" height="586.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">============================
+                                <string key="text">============================
 Otherhome
 
 based on SiskinIM by Tigase, Inc. Copyright (C) 2019 "Tigase, Inc." &lt;office@tigase.com&gt;
@@ -116,7 +116,7 @@ direct or contributory patent infringement, or inducement of patent
 infringement, then any patent rights granted to you under this License
 for this implementation of the WebRTC code package shall terminate as
 of the date such litigation is filed.
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -155,7 +155,7 @@ of the date such litigation is filed.
         <!--Otherhome-->
         <scene sceneID="P1M-yq-05O">
             <objects>
-                <tableViewController storyboardIdentifier="GetInTouchViewController" title="Otherhome" id="5mK-5u-qus" customClass="GetInTouchViewController" customModule="Siskin" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="GetInTouchViewController" title="Otherhome" id="5mK-5u-qus" customClass="GetInTouchViewController" customModule="Otherhome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Q0s-nL-oMz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -227,7 +227,7 @@ of the date such litigation is filed.
                                             <rect key="frame" x="0.0" y="0.0" width="345.5" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Landload" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4wJ-8E-L1J">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Landlord" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4wJ-8E-L1J">
                                                     <rect key="frame" x="20" y="0.0" width="317.5" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
