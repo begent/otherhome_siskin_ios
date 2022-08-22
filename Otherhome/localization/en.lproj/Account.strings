@@ -116,7 +116,7 @@
 "Rto-c0-DcC.title" = "Skip";
 
 /* Class = "UITableViewSection"; footerTitle = "Enter your account JID"; ObjectID = "SKG-bP-NPK"; */
-"SKG-bP-NPK.footerTitle" = "Enter your account JID";
+"SKG-bP-NPK.footerTitle" = "Enter your account ID";
 
 /* Class = "UITableViewSection"; headerTitle = "XMPP ID"; ObjectID = "SKG-bP-NPK"; */
 "SKG-bP-NPK.headerTitle" = "Otherhome ID";

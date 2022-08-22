@@ -116,10 +116,10 @@
 "Rto-c0-DcC.title" = "Saltar";
 
 /* Class = "UITableViewSection"; footerTitle = "Enter your account JID"; ObjectID = "SKG-bP-NPK"; */
-"SKG-bP-NPK.footerTitle" = "Entra tu cuenta JID";
+"SKG-bP-NPK.footerTitle" = "Entra tu cuenta ID";
 
 /* Class = "UITableViewSection"; headerTitle = "XMPP ID"; ObjectID = "SKG-bP-NPK"; */
-"SKG-bP-NPK.headerTitle" = "Otherhome XMPP";
+"SKG-bP-NPK.headerTitle" = "Otherhome ID";
 
 /* Class = "UITextField"; placeholder = "Phone number"; ObjectID = "T1r-DU-iqs"; */
 "T1r-DU-iqs.placeholder" = "Número de teléfono";
