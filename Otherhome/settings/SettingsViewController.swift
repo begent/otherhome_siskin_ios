@@ -192,9 +192,10 @@ class SettingsViewController: UITableViewController {
             let accounts = AccountManager.getAccounts();
             if indexPath.row == accounts.count {
                 let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet);
+                /*
                 alert.addAction(UIAlertAction(title: NSLocalizedString("Create new", comment: "button label"), style: .default, handler: { (action) in
                     self.showAddAccount(register: true);
-                }));
+                }));   가입 숨김 */
                 alert.addAction(UIAlertAction(title: NSLocalizedString("Add existing", comment: "button label"), style: .default, handler: { (action) in
                     self.showAddAccount(register: false);
                 }));
