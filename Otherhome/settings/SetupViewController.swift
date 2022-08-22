@@ -60,7 +60,7 @@ class SetupViewController: UIViewController {
        UIApplication.shared.open(url, options: [:])
            }
    }
-    /* origin button registration
+    /* origin button registration, create new account
      
    @IBAction func createAccountBtnClicked(_ sender: AnyObject) {
         let addAccountController = RegisterAccountController.instantiate(fromAppStoryboard: .Account);

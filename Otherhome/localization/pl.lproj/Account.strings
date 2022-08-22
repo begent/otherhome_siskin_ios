@@ -119,7 +119,7 @@
 "SKG-bP-NPK.footerTitle" = "Wprowadź JID konta";
 
 /* Class = "UITableViewSection"; headerTitle = "XMPP ID"; ObjectID = "SKG-bP-NPK"; */
-"SKG-bP-NPK.headerTitle" = "XMPP ID";
+"SKG-bP-NPK.headerTitle" = "Otherhome ID";
 
 /* Class = "UITextField"; placeholder = "Phone number"; ObjectID = "T1r-DU-iqs"; */
 "T1r-DU-iqs.placeholder" = "Numer telefonu";

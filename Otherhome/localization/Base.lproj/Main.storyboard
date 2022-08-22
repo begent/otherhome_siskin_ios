@@ -53,7 +53,7 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Timestamp" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ga8-2K-hxE">
                                                             <rect key="frame" x="279.5" y="2.5" width="58.5" height="13.5"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                                            <color key="textColor" name="tintColor"/>
+                                                            <color key="textColor" name="chatslistItemSecondaryLabel"/>
                                                             <nil key="highlightedColor"/>
                                                             <attributedString key="userComments">
                                                                 <fragment content="#bc-ignore!"/>
@@ -201,7 +201,7 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Timestamp" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDx-ML-hEZ">
                                                             <rect key="frame" x="279.5" y="2" width="58.5" height="13.5"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                                            <color key="textColor" name="tintColor"/>
+                                                            <color key="textColor" name="chatslistItemSecondaryLabel"/>
                                                             <nil key="highlightedColor"/>
                                                             <attributedString key="userComments">
                                                                 <fragment content="#bc-ignore!"/>

@@ -65,7 +65,7 @@
 "W52-LN-wzX.title" = "Contacts";
 
 /* Class = "UIButton"; normalTitle = "Create new XMPP account"; ObjectID = "WyQ-cb-VAl"; */
-"WyQ-cb-VAl.normalTitle" = "Create new Otherhome account";
+"WyQ-cb-VAl.normalTitle" = "Create New Account";
 
 /* Class = "UILabel"; text = "Message encryption"; ObjectID = "XZp-oZ-XpC"; */
 "XZp-oZ-XpC.text" = "Message encryption";
