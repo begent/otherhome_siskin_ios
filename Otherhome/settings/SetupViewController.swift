@@ -36,6 +36,9 @@ class SetupViewController: UIViewController {
         createAccountBtn.layer.borderWidth = 1;
         //createAccountBtn.layer.cornerRadius = createAccountBtn.frame.height / 2;
         createAccountBtn.layer.borderColor = UIColor.white.cgColor;
+        existingAccountBtn.layer.borderWidth = 1;
+        existingAccountBtn.layer.borderColor = UIColor.white.cgColor;
+        createAccountBtn.isHidden = true; // 가입 버튼 숨김 hide
         
         NotificationCenter.default.addObserver(self, selector: #selector(orientationChanged(_:)), name: UIDevice.orientationDidChangeNotification, object: nil);
     }
@@ -52,6 +55,7 @@ class SetupViewController: UIViewController {
     
     func orientationChanged() {
         createAccountBtn.layer.cornerRadius = createAccountBtn.frame.height / 2;
+        existingAccountBtn.layer.cornerRadius =  existingAccountBtn.frame.height / 2;
         appLogoView.layer.cornerRadius = appLogoView.frame.width / 8;
     }
     
