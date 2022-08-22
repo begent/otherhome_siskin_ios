@@ -430,10 +430,11 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZzM-t7-zvW">
                                 <rect key="frame" x="20" y="801" width="374" height="41"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
                                 <state key="normal" title="Sign in to your Otherhome account">
-                                    <color key="titleColor" name="tintColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="existingAccountBtnClicked:" destination="ib9-Sm-LTl" eventType="touchUpInside" id="ViZ-yy-Vqf"/>
