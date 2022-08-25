@@ -148,6 +148,7 @@ class ChatViewController : BaseChatViewControllerWithDataSourceAndContextMenuAnd
         btn.setImage(image, for: .normal);
         btn.addTarget(self, action: action, for: .touchUpInside);
         btn.frame = CGRect(x: 0, y: 0, width: 30, height: 30);
+        btn.isHidden = true // 비디오 오디오 버튼 숨김 주석
         return UIBarButtonItem(customView: btn);
     }
     
