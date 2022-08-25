@@ -29,7 +29,7 @@
 "A24-eF-tzh.title" = "Huellas OMEMO";
 
 /* Class = "UILabel"; text = "When in Away/XA/DND state"; ObjectID = "aKW-CM-bl2"; */
-"aKW-CM-bl2.text" = "Cuando esté Ausente/Ausencia extendida/No molestar";
+"aKW-CM-bl2.text" = "Detener mientras está en el cliente inactivo";
 
 /* Class = "UITextField"; placeholder = "Type"; ObjectID = "Clb-vT-t5A"; Note = "Placeholder text for selection of address/phone type (home/work)"; */
 "Clb-vT-t5A.placeholder" = "Tipo";
@@ -98,7 +98,7 @@
 "P6B-h8-PVB.text" = "Habilitar";
 
 /* Class = "UITableViewSection"; footerTitle = "Receive push notifications when your other clients are connected but in Away/XA/DND state"; ObjectID = "PvC-LX-0Sp"; */
-"PvC-LX-0Sp.footerTitle" = "Recibir notificaciones cuando tus otros clientes estén conectado pero en estado Ausente/Ausencia extendida/No molestar";
+"PvC-LX-0Sp.footerTitle" = "Nie możesz otrzymywać powiadomień push, gdy Twój klient jest nieaktywny.";
 
 /* Class = "UITableViewSection"; headerTitle = "Push Notifications"; ObjectID = "PvC-LX-0Sp"; */
 "PvC-LX-0Sp.headerTitle" = "Notificaciones Push";

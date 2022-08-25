@@ -29,7 +29,7 @@
 "A24-eF-tzh.title" = "OMEMO fingerprints";
 
 /* Class = "UILabel"; text = "When in Away/XA/DND state"; ObjectID = "aKW-CM-bl2"; */
-"aKW-CM-bl2.text" = "When in Away/XA/DND state";
+"aKW-CM-bl2.text" = "Stop while in client inactive";
 
 /* Class = "UITextField"; placeholder = "Type"; ObjectID = "Clb-vT-t5A"; Note = "Placeholder text for selection of address/phone type (home/work)"; */
 "Clb-vT-t5A.placeholder" = "Type";
@@ -98,7 +98,7 @@
 "P6B-h8-PVB.text" = "Enable";
 
 /* Class = "UITableViewSection"; footerTitle = "Receive push notifications when your other clients are connected but in Away/XA/DND state"; ObjectID = "PvC-LX-0Sp"; */
-"PvC-LX-0Sp.footerTitle" = "Receive push notifications when your other clients are connected but in Away/XA/DND state";
+"PvC-LX-0Sp.footerTitle" = "You can not receive push notifications when your client inactive state";
 
 /* Class = "UITableViewSection"; headerTitle = "Push Notifications"; ObjectID = "PvC-LX-0Sp"; */
 "PvC-LX-0Sp.headerTitle" = "Push Notifications";

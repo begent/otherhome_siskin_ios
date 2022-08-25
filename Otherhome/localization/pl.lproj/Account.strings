@@ -29,7 +29,7 @@
 "A24-eF-tzh.title" = "Odciski OMEMO";
 
 /* Class = "UILabel"; text = "When in Away/XA/DND state"; ObjectID = "aKW-CM-bl2"; */
-"aKW-CM-bl2.text" = "Gdy w stanie Away/XA/DND";
+"aKW-CM-bl2.text" = "Zatrzymaj się, gdy klient jest nieaktywny";
 
 /* Class = "UITextField"; placeholder = "Type"; ObjectID = "Clb-vT-t5A"; Note = "Placeholder text for selection of address/phone type (home/work)"; */
 "Clb-vT-t5A.placeholder" = "Typ";

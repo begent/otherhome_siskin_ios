@@ -49,6 +49,8 @@ class AccountSettingsViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         navigationItem.title = account.stringValue;
+        archivingEnabledSwitch.isHidden = true; // 스위칭 버튼 주석 숨김
+        pushNotificationsForAwaySwitch.isHidden = true; // 스위칭 버튼 주석 숨김
         
         AccountManager.accountEventsPublisher.receive(on: DispatchQueue.main).sink(receiveValue: { [weak self] event in
             switch event {
